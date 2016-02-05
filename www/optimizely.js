@@ -1,6 +1,6 @@
 /*global cordova, module*/
 
-module.exports = {
+var optimizely = {
     booleanForKey: function(variableKey, successCallback, errorCallback) {
       cordova.exec(successCallback, errorCallback, "Optimizely", "variableForKey", [variableKey, 'boolean']);
     },
@@ -28,3 +28,5 @@ module.exports = {
       cordova.exec(successCallback, errorCallback, "Optimizely", "variableForKey", [variableKey, 'string']);
     }
 };
+
+module.exports = optimizely
