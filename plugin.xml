@@ -23,7 +23,6 @@
       </feature>
     </config-file>
 
-    <source-file src="src/android/android-support-v4.jar" target-dir="libs" framework="true"/>
     <source-file src="src/android/okio-1.4.0.jar" target-dir="libs" framework="true"/>
     <source-file src="src/android/okhttp-2.4.0.jar" target-dir="libs" framework="true"/>
     <source-file src="src/android/gson-2.3.jar" target-dir="libs" framework="true"/>
